@@ -1,0 +1,54 @@
+/* ================ COMMON STYLES ================ */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+/* ================ /COMMON STYLES ================ */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 156px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  transition: transform 250ms ease-in-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
